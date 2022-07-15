@@ -1,0 +1,20 @@
+package basicprogram;
+import java.util.Scanner;
+
+public class Factorial {
+	public static void main(String[] args) {
+		int num,i,sum=0;
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number.......!");
+		 num=sc.nextInt();
+		
+		for( i=1; i<=num;i++)
+		{
+			sum+=i;
+		}
+		System.out.println("Factorial of the  "+num+" is "+sum);
+		
+	}
+
+}
